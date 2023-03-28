@@ -1,6 +1,6 @@
 # React Update Templates
 ### Important Links
-##### [https://github.com/dev-abuhasan/react-update-templates][GigHub]
+##### [LIVE LINK: https://abu-nft.web.app][live]
 
 ____________________________
 ### Folder Structure
@@ -25,4 +25,4 @@ ____________________________
 
 
 <!-- Links -->
-[GigHub]: https://github.com/dev-abuhasan/react-update-templates
+[live]: https://abu-nft.web.app
