@@ -2,26 +2,14 @@
 ### Important Links
 ##### [LIVE LINK: https://abu-nft.web.app][live]
 
-____________________________
-### Folder Structure
-    ├── public                      
-    ├── src                         
-    │   ├── components             
-    │   │      ├── Layouts          
-    │   │      ├── Reuseable        
-    │   │      │         ├── Loading 
-    │   │      │         ├── ToastNotify      
-    │   │      │         ├── ...
-    │   │
-    │   ├── pages                   
-    │   │      ├──                
-    │   │      ├── ....           
-    │   │
-    │   └── services  
-    │          ├── redux            
-    │          ├── scss      
-    │          ├── utils      
-    └── ...
+```
+For Run in Local Machine
+
+git clone THIS_REPO
+npm install or yarn install
+npm start or yarn start
+
+```
 
 
 <!-- Links -->
