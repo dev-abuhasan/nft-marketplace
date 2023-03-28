@@ -1,0 +1,142 @@
+@import "../../services/scss/global.scss";
+
+.hero_banner {
+    // padding: 20px 0;
+    .total_client {
+        h2 {
+            line-height: 30px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+    .content {
+        position: relative;
+        height: 100%;
+        .img_parent {
+            .img0 {
+                position: absolute;
+                top: 35%;
+                left: -15%;
+                z-index: 10;
+            }
+        }
+    }
+}
+.home_slider {
+    img {
+        width: 100%;
+    }
+}
+
+.nft_art {
+    .content {
+        .profile {
+            position: relative;
+            max-width: 70px;
+            .icon {
+                position: absolute;
+                top: -5px;
+                left: auto;
+                right: -5px;
+            }
+        }
+        .info {
+            p {
+                font-size: 16px;
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+.nft_featured {
+    .nft_fea_img {
+        .parent_img {
+            max-width: 295px;
+            img {
+                width: 100%;
+            }
+        }
+        .child_parent {
+            .child_img {
+                max-width: 105px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.nft_sell {
+    .img_parent {
+        margin-bottom: 40px;
+        position: relative;
+        .profile {
+            position: absolute;
+            top: auto;
+            bottom: -20px;
+            left: auto;
+            right: -20px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .img02 {
+        display: flex;
+        justify-content: flex-end;
+        img {
+            max-width: 195px;
+        }
+    }
+    .img03 {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 240px;
+        }
+    }
+}
+.nft_more{
+    .img_parent{
+        position: relative;
+        .profile{
+            position: absolute;
+            top: auto;
+            bottom: -15px; 
+            left: 15px;
+            .img2{
+                margin-left: -10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nft_featured {
+        .nft_fea_img {
+            flex-direction: column;
+            margin-bottom: 30px;
+            .parent_img {
+                max-width: 100%;
+                margin-bottom: 10px;
+                img {
+                    width: 100%;
+                }
+            }
+            .child_parent {
+                display: flex;
+                justify-content: space-between;
+                .child_img {
+                    max-width: 90px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

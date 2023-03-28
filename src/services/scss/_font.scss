@@ -1,0 +1,29 @@
+@import "./variable";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+//font-family: 'DM Sans', sans-serif;
+
+@font-face {
+    font-family: integral_reg;
+    src: url(./Integral-CF/integralcf-regular.otf);
+}
+
+.integral,
+h1,
+h2,
+.title {
+    font-family: integral_reg;
+}
+
+.f_20 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: $text;
+}
+.f_10 {
+    font-size: 13px;
+}
+.max_w_450 {
+    max-width: 470px;
+}

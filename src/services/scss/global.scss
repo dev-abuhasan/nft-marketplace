@@ -1,0 +1,64 @@
+@import "./variable";
+@import "~bootstrap/scss/bootstrap";
+@import "./font";
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+* {
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: $primary;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: $secondary;
+}
+
+::-moz-selection {
+    color: $light;
+    background: $primary;
+}
+::selection {
+    color: $light;
+    background: $primary;
+}
+
+.scrollToTop {
+    position: fixed;
+    top: auto;
+    bottom: 10px;
+    left: auto;
+    right: 10px;
+    z-index: 1000;
+    transition: all 0.5s;
+
+    .scrollUp {
+        background: transparent;
+        border: none;
+        transition: all 0.5s;
+
+        a {
+            background-color: $primary;
+            padding: 10px;
+            border-radius: 3px;
+            svg {
+                color: $light;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.parent_section {
+    padding-top: 100px;
+}

@@ -1,0 +1,49 @@
+{
+    "env": {
+        "browser": true,
+        "es2022": true,
+        "jest": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:jest/recommended"
+    ],
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "moduleDirectory": [
+                    "node_modules",
+                    "src"
+                ]
+            }
+        },
+        "react": {
+            "version": "detect"
+        }
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/prop-types": "off",
+        "prettier/prettier": [
+            2,
+            {
+                "bracketSpacing": true,
+                "singleQuote": true,
+                "trailingComma": "none",
+                "useTabs": false,
+                "endOfLine": "auto"
+            }
+        ]
+    }
+}

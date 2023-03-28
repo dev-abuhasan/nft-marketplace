@@ -1,0 +1,39 @@
+@import "../../../services/scss/global.scss";
+
+#main_nav {
+    min-height: 90px;
+    a {
+        text-decoration: none;
+        color: $dark;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 25px;
+    }
+
+    form {
+        position: relative;
+        margin-bottom: 15px;
+        input {
+            height: 50px;
+            min-width: 290px;
+        }
+        .search {
+            position: absolute;
+            left: auto;
+            right: 20px;
+            top: 12px;
+        }
+        ::placeholder {
+            color: $grey;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 558px) {
+    #main_nav {
+        .btn_click {
+            width: 100% !important;
+        }
+    }
+}
